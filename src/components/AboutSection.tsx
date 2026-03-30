@@ -6,6 +6,7 @@ import InteractiveModel from "./ui/InteractiveModel";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ProfileImage from "./ProfileImage";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -85,10 +86,12 @@ const AboutSection = () => {
 
           <div className="relative z-10" ref={inViewRef}>
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={inView ? { opacity: 1, x: 0 } : {}}
+              initial={{ opacity: 0, y: 30 }}
+              animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, ease: "easeOut" }}
+              className="flex flex-col items-center text-center"
             >
+              <ProfileImage className="mb-8 w-32 h-32 md:w-48 md:h-48 shadow-2xl border-4 border-background" />
               <p className="text-primary font-medium tracking-widest uppercase text-xs mb-4">
                 About Me
               </p>
@@ -97,7 +100,7 @@ const AboutSection = () => {
                 <br />
                 <span className="text-primary">Engineering</span>
               </h2>
-              <p className="text-muted-foreground text-lg leading-relaxed max-w-md font-sans font-light">
+              <p className="text-muted-foreground text-lg leading-relaxed max-w-md mx-auto font-sans font-light">
                 I'm Krish Agrawal — a Full-Stack Developer & UI/UX Designer who
                 treats code like a design medium. I focus on building beautiful,
                 responsive interfaces powered by React JS, Figma, and an

@@ -14,7 +14,6 @@ import {
   Html,
 } from "@react-three/drei";
 import * as THREE from "three";
-import ProfileImage from "./ProfileImage";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -728,7 +727,6 @@ const HeroSection = () => {
           <div className="flex flex-col lg:flex-row lg:items-end lg:gap-24">
             {/* Desktop/Tablet Name Section */}
             <div className="hero-tag hidden lg:block">
-              <ProfileImage className="mb-6 pointer-events-auto w-32 h-32 md:w-48 md:h-48" />
               <div className="hero-line h-[2px] w-12 bg-primary mb-6" />
               <p className="text-muted-foreground font-medium tracking-widest uppercase text-xs mb-2">
                 Portfolio v3.0
@@ -740,7 +738,6 @@ const HeroSection = () => {
 
             <div className="hero-role flex flex-col items-center lg:items-start text-center lg:text-left w-full lg:w-auto">
               <div className="hero-tag lg:hidden mb-4 flex flex-col items-center">
-                <ProfileImage className="mb-6 pointer-events-auto w-32 h-32 sm:w-40 sm:h-40" />
                 <div className="hero-line h-[2px] w-12 bg-primary mb-4" />
                 <p className="text-muted-foreground font-medium tracking-widest uppercase text-xs mb-2">
                   Portfolio v3.0

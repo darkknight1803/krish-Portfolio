@@ -34,7 +34,7 @@ Ensure you have Node.js installed on your machine.
 
 1. **Clone the repository:**
    ```bash
-   cd krish-Devfolio-main
+   cd krish-Portfolio
    ```
 
 2. **Install dependencies:**

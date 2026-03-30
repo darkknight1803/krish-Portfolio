@@ -8,7 +8,7 @@ interface ProfileImageProps {
 }
 
 const ProfileImage: React.FC<ProfileImageProps> = ({
-  src = "/Krish.jpeg", // ← updated to the actual image filename we are using
+  src = `${import.meta.env.BASE_URL}Krish.jpeg`,
   alt = "Profile Image",
   className,
 }) => {

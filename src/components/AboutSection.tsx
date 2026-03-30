@@ -27,7 +27,7 @@ const timeline = [
     desc: "Contributed to coding and UI design for an end-to-end solution under tight time constraints.",
   },
   {
-    year: "2025",
+    year: "2026",
     title: "Full-Stack & AI Projects",
     desc: "Built AI Tutor App, Mindful Mate UI, and AI Attendance System — combining React JS frontend with AI-powered backends.",
   },

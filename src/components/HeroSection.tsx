@@ -146,7 +146,7 @@ function StarfighterModel({
   currentView?: string;
   onViewChange?: (view: "front" | "back" | "left" | "right" | "top") => void;
 } & Record<string, unknown>) {
-  const { scene } = useGLTF("/star_wars_ship.glb");
+  const { scene } = useGLTF(`${import.meta.env.BASE_URL}star_wars_ship.glb`);
   const [scale, setScale] = useState<[number, number, number]>([4, 4, 4]);
   const groupRef = useRef<THREE.Group>(null);
   const baseRotationRef = useRef(new THREE.Euler(0, 0, 0));
@@ -452,7 +452,7 @@ const HeroStarStreaks = ({ progress }: { progress: number }) => {
   );
 };
 
-useGLTF.preload("/star_wars_ship.glb");
+useGLTF.preload(`${import.meta.env.BASE_URL}star_wars_ship.glb`);
 
 const HeroSection = () => {
   const [roleIndex, setRoleIndex] = useState(0);

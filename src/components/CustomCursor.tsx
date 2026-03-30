@@ -179,11 +179,7 @@ const CustomCursor = () => {
         }}
         transition={{ scale: { type: "spring", stiffness: 300, damping: 20 } }}
       >
-        <img
-          src="/tie-fighter-cursor-bg-transparent.png"
-          alt="Cursor"
-          className="w-full h-full object-contain filter drop-shadow-[0_0_8px_rgba(0,0,0,0.8)]"
-        />
+        <img src={`${import.meta.env.BASE_URL}tie-fighter-cursor-bg-transparent.png`} alt="cursor" />
       </motion.div>
 
       {/* Render Lasers */}

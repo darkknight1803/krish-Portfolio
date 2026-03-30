@@ -140,17 +140,17 @@ const ScrollGif = () => {
         style={{ aspectRatio: "724/1024" }}
       >
         <img
-          src="/scroll-animation.gif"
+          src={`${import.meta.env.BASE_URL}scroll-animation.gif`}
           alt="Scroll Down"
           className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-75 ${showForward ? "opacity-100" : "opacity-0"}`}
         />
         <img
-          src="/scroll-animation-reversed.gif"
+          src={`${import.meta.env.BASE_URL}scroll-animation-reversed.gif`}
           alt="Scroll Up"
           className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-75 ${showReverse ? "opacity-100" : "opacity-0"}`}
         />
         <img
-          src="/scroll-animation-paused.png"
+          src={`${import.meta.env.BASE_URL}scroll-animation-paused.png`}
           alt="Paused"
           className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-75 ${showPaused ? "opacity-100" : "opacity-0"}`}
         />

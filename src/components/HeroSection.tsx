@@ -771,7 +771,8 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
               <a
                 href={`${import.meta.env.BASE_URL}Krish_Agrawal_Resume.pdf`}
-                download="Krish_Agrawal_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex-1 lg:flex-none px-4 lg:px-8 py-4 border border-border text-foreground font-medium text-sm hover:border-primary hover:text-primary transition-colors duration-300 flex items-center justify-center gap-2 cursor-pointer pointer-events-auto"
               >
                 <Download size={16} /> Resume

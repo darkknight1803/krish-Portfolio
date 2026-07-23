@@ -14,22 +14,22 @@ const timeline = [
   {
     year: "2023",
     title: "B.Tech Information Technology",
-    desc: "Started degree at Calcutta Institute of Engineering and Management (CIEM), Kolkata.",
+    desc: "Started degree at Techno Main Salt Lake (formerly Techno India), Kolkata. Expected graduation: 2027.",
   },
   {
     year: "2024",
     title: "UI Designer — Nirmiti Startup",
-    desc: "Designed intuitive and emotionally engaging UI for an AI-based mental health app. Focused on accessibility and user-centered design.",
+    desc: "Crafted an emotionally engaging UI for an AI-based mental health app with chatbot, mood logging, and psychiatrist consultation features. Ensured accessibility and typographic clarity across all screens.",
   },
   {
     year: "2024",
     title: "SIH Hackathon Participant",
-    desc: "Contributed to coding and UI design for an end-to-end solution under tight time constraints.",
+    desc: "Contributed to full-stack development, wireframing, and solution architecture under strict time constraints at the Smart India Hackathon (SIH) Internal.",
   },
   {
-    year: "2026",
+    year: "2025",
     title: "Full-Stack & AI Projects",
-    desc: "Built AI Tutor App, Mindful Mate UI, and AI Attendance System — combining React JS frontend with AI-powered backends.",
+    desc: "Built AI Tutor App (Python, React JS, Claude API), Mindful Mate UI (Figma), and AI Attendance System (React JS) — combining frontend expertise with AI-powered backends.",
   },
 ];
 
@@ -101,10 +101,10 @@ const AboutSection = () => {
                 <span className="text-primary">Engineering</span>
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed max-w-md mx-auto font-sans font-light">
-                I'm Krish Agrawal — a Full-Stack Developer & UI/UX Designer who
-                treats code like a design medium. I focus on building beautiful,
-                responsive interfaces powered by React JS, Figma, and an
-                obsessive attention to user experience.
+                I'm Krish Agrawal — a Full-Stack Developer & UI/UX Designer
+                pursuing B.Tech in IT at Techno Main Salt Lake, Kolkata. I focus
+                on building beautiful, responsive interfaces powered by React JS,
+                Python, Figma, and an obsessive attention to user experience.
               </p>
             </motion.div>
           </div>

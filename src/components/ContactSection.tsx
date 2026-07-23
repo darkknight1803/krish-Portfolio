@@ -181,7 +181,7 @@ const ContactSection = () => {
           {[
             {
               icon: Github,
-              href: "https://github.com/darkknight1803",
+              href: "https://github.com/krishagrawal3503",
               label: "GitHub",
             },
             {

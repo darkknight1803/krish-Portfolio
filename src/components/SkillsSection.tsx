@@ -14,7 +14,7 @@ const skillCategories = [
   },
   {
     title: "Programming",
-    skills: ["Python", "C", "Java", "JavaScript"],
+    skills: ["Python", "C", "Java", "JavaScript", "HTML", "CSS"],
     color: "from-primary to-accent",
   },
   {
@@ -22,7 +22,7 @@ const skillCategories = [
     skills: [
       "Machine Learning (Beginner)",
       "AI App Integration",
-      "Basic ML Concepts",
+      "Claude API",
     ],
     color: "from-primary/80 to-accent/80",
   },
@@ -30,6 +30,11 @@ const skillCategories = [
     title: "Tools & Platforms",
     skills: ["Git", "GitHub", "VS Code"],
     color: "from-accent/80 to-primary/80",
+  },
+  {
+    title: "Core Strengths",
+    skills: ["UI Design", "Rapid Prototyping", "Problem Solving", "Teamwork"],
+    color: "from-primary/60 to-accent/60",
   },
 ];
 

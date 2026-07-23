@@ -11,19 +11,19 @@ const achievements = [
   {
     icon: Trophy,
     title: "UI Designer — Nirmiti Startup",
-    desc: "Designed intuitive and emotionally engaging UI for an AI-based mental health app (chatbot, mood tracking, psychiatrist access). Collaborated cross-functionally and prioritized accessibility and user-centered design.",
+    desc: "Crafted an emotionally engaging UI for an AI-based mental health app with chatbot, mood logging, and direct psychiatrist consultation features. Partnered with developers and product managers to deliver user-centered mockups and refined experience flows. Ensured accessibility and typographic clarity across all screens.",
     colSpan: "md:col-span-2",
   },
   {
     icon: Target,
     title: "SIH Hackathon Participant",
-    desc: "Contributed to coding and UI design for end-to-end solutions under tight time constraints at the Smart India Hackathon (SIH) Internal 2024.",
+    desc: "Contributed to full-stack development, wireframing, and solution architecture under strict time constraints at the Smart India Hackathon (SIH) Internal 2024. Sharpened abilities in collaborative execution, rapid prototyping, and iterative problem-solving.",
     colSpan: "md:col-span-1",
   },
   {
     icon: Users,
-    title: "Nirmiti Certification Award",
-    desc: "Recognized and awarded certification for outstanding UI design contributions to an AI-based mental health platform at Nirmiti Startup.",
+    title: "Nirmiti — UI Design Recognition",
+    desc: "Received a certificate of appreciation for delivering an empathetic, well-structured interface for a health-tech startup. Acknowledged by the founding team for outstanding contribution to product strategy within a cross-functional group.",
     colSpan: "md:col-span-1",
   },
 ];

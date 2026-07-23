@@ -24,39 +24,39 @@ gsap.registerPlugin(ScrollTrigger);
 const projects = [
   {
     title: "AI Tutor App",
-    desc: "AI-powered personalized learning platform leveraging AI for customized learning paths. Built with a React JS frontend for a seamless, interactive educational experience.",
-    tech: ["React JS", "JavaScript", "AI Integration"],
+    desc: "AI-powered tutoring tool that personalizes learning paths and auto-generates quizzes for college students. Built with a React JS interface featuring real-time feedback, topic cards, and progress monitoring.",
+    tech: ["Python", "React JS", "Claude API", "GitHub"],
     gradient: "from-primary/20 to-accent/20",
     colSpan: "md:col-span-2",
     rowSpan: "md:row-span-2",
     link: "https://github.com/krishagrawal3503",
-    longDesc: "A comprehensive AI-driven educational tool designed to dynamically adapt to a student's learning pace. It assesses real-time performance to generate personalized curriculums and interactive quizzes.",
-    challenges: "Integrating real-time AI response systems without introducing high latency. We implemented sophisticated request batching and aggressive edge-caching to perfectly stream educational content.",
-    architecture: "Frontend: React.js & Tailwind CSS. AI Core: OpenAI API integration. State Management: Redux for complex lesson tracing."
+    longDesc: "Engineered an AI-powered tutoring tool that personalizes learning paths and auto-generates quizzes for college students. Implemented a React JS interface with real-time feedback, topic cards, and progress monitoring capabilities.",
+    challenges: "Integrating real-time AI response systems via the Claude API without introducing high latency. Implemented sophisticated request batching and edge-caching to stream educational content seamlessly.",
+    architecture: "Frontend: React.js & Tailwind CSS. AI Core: Claude API integration. Backend: Python. State Management: Redux for complex lesson tracing."
   },
   {
-    title: "Mindful Mate UI",
-    desc: "Complete UI/UX design for an AI-powered mental health companion app with chatbot, mood tracking, and psychiatrist access features.",
-    tech: ["Figma", "UI/UX", "Prototyping"],
+    title: "Mindful Mate",
+    desc: "Conceptualized and prototyped the complete UI for an AI-powered mental wellness companion app covering therapy booking, journal entries, and conversational AI interactions.",
+    tech: ["Figma", "UI/UX Design", "Prototyping"],
     gradient: "from-accent/20 to-primary/20",
     colSpan: "md:col-span-1",
     rowSpan: "md:row-span-1",
     link: "https://github.com/krishagrawal3503",
-    longDesc: "A deeply researched and beautifully crafted UI/UX conceptual design aimed at providing users with a safe, calming, and highly accessible mental health companion environment.",
+    longDesc: "Produced high-fidelity Figma mockups covering therapy booking, journal entries, and conversational AI interactions. Prioritized emotional safety and simplicity to create an inviting experience for first-time mental health app users.",
     challenges: "Designing an interface that feels medical and trustworthy while simultaneously remaining warm, approachable, and devoid of clinical anxiety. Iterated through 30+ color palettes before settling on the perfect ethereal gradient.",
     architecture: "Tools: Figma (Auto-layout, Components, Advanced Prototyping). User Testing: Maze platform for heuristic evaluation."
   },
   {
     title: "AI Attendance System",
-    desc: "Web-based AI attendance management system with a fully responsive interface and real-time dashboard.",
-    tech: ["React JS", "Python", "AI"],
+    desc: "Architected a web-based AI-driven attendance system for automated, accurate student record management with a fully adaptive cross-device interface.",
+    tech: ["HTML", "CSS", "JavaScript", "React JS"],
     gradient: "from-primary/20 to-primary/10",
     colSpan: "md:col-span-1",
     rowSpan: "md:row-span-1",
     link: "https://ai-attendance.netlify.app",
-    longDesc: "An automated facial-recognition attendance tracking system built for modern classrooms. It drastically reduces manual overhead by automatically logging students seamlessly via high-speed IP camera streams.",
-    challenges: "Optimizing the facial recognition neural network to run efficiently on low-power devices without sacrificing frame-speed or accuracy. We had to build custom quantization scripts for the Python backend.",
-    architecture: "Frontend: React.js. Backend: Python (FastAPI). AI Model: OpenCV & Dlib with a customized ResNet architecture."
+    longDesc: "Architected a web-based AI-driven attendance system for automated, accurate student record management. Coded a fully adaptive interface using HTML, CSS, JavaScript, and React JS for cross-device compatibility. Reduced manual effort in attendance logging by integrating intelligent automation into the core workflow.",
+    challenges: "Optimizing the facial recognition system to run efficiently on low-power devices without sacrificing frame-speed or accuracy. Built custom quantization scripts for the Python backend.",
+    architecture: "Frontend: React.js, HTML, CSS, JavaScript. Backend: Python (FastAPI). AI Model: OpenCV & Dlib with a customized ResNet architecture."
   },
 ];
 
